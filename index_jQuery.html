@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery</title>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel = "stylesheet" type = "text/css" href = "style_jQuery.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready( function(){
+      $('.slider').bxSlider( {
+          auto: true,
+          mode: 'horizontal',
+          speed: 2000,
+          slideWidth: 1200,
+        } );
+    } );
+  </script>
+        
+    </head>
+    
+    <body>
+        <img src = "diblog_logo.jpg">
+        
+        <header>
+            <ul>
+                <li>トップ</li>
+                <li>プロフィール</li>
+                <li>D.I.Blogについて</li>
+                <li>登録フォーム</li>
+                <li>問い合わせ</li>
+                <li>その他</li>
+            </ul>
+        </header>
+        
+        <main>
+            <div class = "left">
+                <h1>プログラミングに役立つ書籍</h1>
+                2017年1月15日<br>
+             
+                
+                <div class = "slider">
+                    <div><img src = "jQuery_image1.jpg"></div>
+                    <div><img src = "jQuery_image2.jpg"></div>
+                    <div><img src = "jQuery_image3.jpg"></div>
+                    <div><img src = "jQuery_image4.jpg"></div>
+                    <div><img src = "jQuery_image5.jpg"></div>
+                </div>
+                
+                <p>D.I.BlogはD.I.Worksが提供する演習課題です。</p>
+                記事中身
+                <div class = "gray_box">
+                   <div class = "pic1"> 
+                       <img src = "pic1.jpg">
+                       <p>ドメイン取得方法</p>
+                    </div>   
+                   <div class = "pic1"> 
+                       <img src = "pic2.jpg">
+                       <p>快適な職場環境</p>
+                    </div>
+                    <div class = "pic1">
+                        <img src = "pic3.jpg">
+                        <p>基礎</p>
+                    </div>
+                    <div class = "pic1">
+                        <img src = "pic4.jpg">
+                        <P>マーケティング入門</P>
+                    </div><br>
+                    <div class = "pic2">
+                        <img src = "pic5.jpg">
+                        <P>アクティブラーニング</P>
+                    </div>
+                    <div class = "pic2">
+                        <img src = "pic6.jpg">
+                        <p>CSSの効率的な勉強方法</p>
+                    </div>
+                    <div class = "pic2">
+                        <img src = "pic7.jpg">
+                        <p>リーダブルコードとは</p>
+                    </div>
+                    <div class = "pic2">
+                        <img src = "pic8.jpg">
+                        <p>HTMLSの可能性</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "right">
+                <h2>人気の記事</h2>
+                <div class = "kiji">
+                    PHPオススメ本<br>
+                    PHP　MyAdminの使い方<br>
+                    いま人気のエディタTops<br>
+                    HTMLの基礎
+                </div>
+                <h2>オススメリンク</h2>
+                <div class = "link">
+                    D.I.Works株式会社<br>
+                    XAMPPのダウンロード<br>
+                    Eclipseのダウンロード<br>
+                    Bracketsのダウンロード
+                </div>
+                <h2>カテゴリ</h2>
+                <div class = "category">
+                    HTML<br>
+                    PHP<br>
+                    MySQL<br>
+                    JavaScript
+                </div>
+            </div>
+        </main>
+        <footer>
+            Copyright D.I.Works| D.I.Blog is the one which provides A to Z about programming
+        </footer>
+    
+        <script type="text/javascript" src="script_jQuery.js"></script>
+    </body>
+</html>
